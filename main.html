@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Datetime superapp</title>
+	<script src="./src/main.js" type="module"></script>
+	<link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+
+<div class="tabs">
+	<div class="tabs__header">
+		<div class="tabs__header__item tabs__header__item_active" data-target="0">Калькулятор дат</div>
+		<div class="tabs__header__item" data-target="1">Таймер</div>
+	</div>
+	<div class="tabs__body">
+		<div class="tabs__body__item tabs__body__item_active">
+			<!--калькулятор дат-->
+
+			<form id="datecalc">
+				<h3>Калькулятор дат</h3>
+				<label>
+					<strong>Первая дата:</strong>
+					<input type="date" name="firstDate"/>
+				</label>
+				<label>
+					<strong>Вторая дата:</strong>
+					<input type="date" name="secondDate"/>
+				</label>
+				<button type="submit">Расчитать промежуток</button>
+				<p id="datecalc__result"></p>
+			</form>
+		</div>
+		<div class="tabs__body__item">
+			<!--таймер-->
+
+			<div id="timer">
+				<h3>Таймер</h3>
+				<input type="text" name="time" id="time">
+				<button id="button_start">Старт</button>
+				<button id="button_stop">Стоп</button>
+				<div id="timer_left"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

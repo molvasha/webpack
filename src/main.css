@@ -1,0 +1,40 @@
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs__header,
+.tabs__body {
+    display: flex;
+}
+
+.tabs__header__item {
+    padding: 10px;
+    border-width: 1px 1px 0 1px;
+    border-color: #000;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.tabs__header__item_active {
+    background-color: #000;
+    color: #fff;
+    cursor: default;
+}
+
+.tabs__body__item {
+    display: none;
+}
+
+.tabs__body__item_active {
+    display: block;
+}
+
+.tabs__body {
+    border: 1px solid #000;
+    padding: 20px;
+}
