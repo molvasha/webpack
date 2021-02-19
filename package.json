@@ -1,5 +1,44 @@
 {
   "dependencies": {
-    "luxon": "^1.26.0"
-  }
+    "luxon": "^1.26.0",
+    "parcel": "^1.12.4",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "yarn": "^1.22.10"
+  },
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^5.0.2",
+    "gulp": "^4.0.2",
+    "html-webpack-plugin": "^5.1.0",
+    "mini-css-extract-plugin": "^1.3.8",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=development",
+    "serve": "webpack serve --mode=development",
+    "start": "webpack --watch",
+    "bundle-report": "webpack-bundle-analyzer --port 4200 dist/stats.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molvasha/webpack.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molvasha/webpack/issues"
+  },
+  "homepage": "https://github.com/molvasha/webpack#readme",
+  "description": ""
 }

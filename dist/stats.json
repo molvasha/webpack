@@ -1,0 +1,1862 @@
+{
+  "hash": "7165246de8dec63abb41",
+  "version": "5.23.0",
+  "time": 636,
+  "builtAt": 1613744306840,
+  "publicPath": "auto",
+  "outputPath": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "bundle.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "bundle.js",
+      "size": 231068,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 231068
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 233,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 233
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 214925,
+      "sizes": {
+        "javascript": 214255,
+        "runtime": 670
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "3af5d3f87f181f5cc998",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 571,
+          "sizes": {
+            "javascript": 571
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "name": "./src/datecalc.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "name": "./src/main.js",
+              "id": "./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/datecalc.js",
+          "issuerId": "./src/main.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./datecalc.js",
+              "loc": "1:0-52",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./datecalc.js",
+              "loc": "18:17-26",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./datecalc.js",
+              "loc": "19:31-41",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "diffDates",
+            "diffToHtml"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 210140,
+          "sizes": {
+            "javascript": 210140
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\esm.js",
+          "name": "./src/esm.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\esm.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "issuerName": "./src/datecalc.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "name": "./src/main.js",
+              "id": "./src/main.js"
+            },
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "name": "./src/datecalc.js",
+              "id": "./src/datecalc.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/esm.js",
+          "issuerId": "./src/datecalc.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "module": "./src/datecalc.js",
+              "moduleName": "./src/datecalc.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "resolvedModule": "./src/datecalc.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./esm.js",
+              "loc": "1:0-34",
+              "moduleId": "./src/datecalc.js",
+              "resolvedModuleId": "./src/datecalc.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "module": "./src/datecalc.js",
+              "moduleName": "./src/datecalc.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "resolvedModule": "./src/datecalc.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./esm.js",
+              "loc": "4:14-30",
+              "moduleId": "./src/datecalc.js",
+              "resolvedModuleId": "./src/datecalc.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "module": "./src/datecalc.js",
+              "moduleName": "./src/datecalc.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+              "resolvedModule": "./src/datecalc.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./esm.js",
+              "loc": "5:15-31",
+              "moduleId": "./src/datecalc.js",
+              "resolvedModuleId": "./src/datecalc.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "DateTime",
+            "Duration",
+            "FixedOffsetZone",
+            "IANAZone",
+            "Info",
+            "Interval",
+            "InvalidZone",
+            "LocalZone",
+            "Settings",
+            "Zone",
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1968,
+          "sizes": {
+            "javascript": 1968
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/main.js",
+          "issuerId": null,
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 389,
+          "sizes": {
+            "javascript": 389
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\tabs.js",
+          "name": "./src/tabs.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\tabs.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "name": "./src/main.js",
+              "id": "./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/tabs.js",
+          "issuerId": "./src/main.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./tabs.js",
+              "loc": "4:0-36",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./tabs.js",
+              "loc": "51:4-13",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "changeTab"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1101,
+          "sizes": {
+            "javascript": 1101
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\timer.js",
+          "name": "./src/timer.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\timer.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "name": "./src/main.js",
+              "id": "./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/timer.js",
+          "issuerId": "./src/main.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./timer.js",
+              "loc": "3:0-49",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./timer.js",
+              "loc": "33:2-12",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./timer.js",
+              "loc": "37:2-11",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "startTimer",
+            "stopTimer"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 86,
+          "sizes": {
+            "javascript": 86
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\utils.js",
+          "name": "./src/utils.js",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\utils.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "name": "./src/main.js",
+              "id": "./src/main.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/utils.js",
+          "issuerId": "./src/main.js",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils.js",
+              "loc": "2:0-39",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            },
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "module": "./src/main.js",
+              "moduleName": "./src/main.js",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+              "resolvedModule": "./src/main.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils.js",
+              "loc": "20:36-47",
+              "moduleId": "./src/main.js",
+              "resolvedModuleId": "./src/main.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "formatError"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1968,
+      "sizes": {
+        "javascript": 1968
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "name": "./src/main.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/main.js",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 571,
+      "sizes": {
+        "javascript": 571
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+      "name": "./src/datecalc.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/datecalc.js",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./datecalc.js",
+          "loc": "1:0-52",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./datecalc.js",
+          "loc": "18:17-26",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./datecalc.js",
+          "loc": "19:31-41",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "diffDates",
+        "diffToHtml"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 86,
+      "sizes": {
+        "javascript": 86
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\utils.js",
+      "name": "./src/utils.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\utils.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/utils.js",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils.js",
+          "loc": "2:0-39",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils.js",
+          "loc": "20:36-47",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "formatError"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1101,
+      "sizes": {
+        "javascript": 1101
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\timer.js",
+      "name": "./src/timer.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\timer.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/timer.js",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./timer.js",
+          "loc": "3:0-49",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./timer.js",
+          "loc": "33:2-12",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./timer.js",
+          "loc": "37:2-11",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "startTimer",
+        "stopTimer"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 389,
+      "sizes": {
+        "javascript": 389
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\tabs.js",
+      "name": "./src/tabs.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\tabs.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "id": "./src/main.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/tabs.js",
+      "issuerId": "./src/main.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./tabs.js",
+          "loc": "4:0-36",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "module": "./src/main.js",
+          "moduleName": "./src/main.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "resolvedModule": "./src/main.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./tabs.js",
+          "loc": "51:4-13",
+          "moduleId": "./src/main.js",
+          "resolvedModuleId": "./src/main.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "changeTab"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 210140,
+      "sizes": {
+        "javascript": 210140
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\esm.js",
+      "name": "./src/esm.js",
+      "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\esm.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+      "issuerName": "./src/datecalc.js",
+      "issuerPath": [
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\main.js",
+          "name": "./src/main.js",
+          "id": "./src/main.js"
+        },
+        {
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "name": "./src/datecalc.js",
+          "id": "./src/datecalc.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/esm.js",
+      "issuerId": "./src/datecalc.js",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "module": "./src/datecalc.js",
+          "moduleName": "./src/datecalc.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "resolvedModule": "./src/datecalc.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./esm.js",
+          "loc": "1:0-34",
+          "moduleId": "./src/datecalc.js",
+          "resolvedModuleId": "./src/datecalc.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "module": "./src/datecalc.js",
+          "moduleName": "./src/datecalc.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "resolvedModule": "./src/datecalc.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./esm.js",
+          "loc": "4:14-30",
+          "moduleId": "./src/datecalc.js",
+          "resolvedModuleId": "./src/datecalc.js"
+        },
+        {
+          "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "module": "./src/datecalc.js",
+          "moduleName": "./src/datecalc.js",
+          "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\src\\datecalc.js",
+          "resolvedModule": "./src/datecalc.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./esm.js",
+          "loc": "5:15-31",
+          "moduleId": "./src/datecalc.js",
+          "resolvedModuleId": "./src/datecalc.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "DateTime",
+        "Duration",
+        "FixedOffsetZone",
+        "IANAZone",
+        "Info",
+        "Interval",
+        "InvalidZone",
+        "LocalZone",
+        "Settings",
+        "Zone",
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 308,
+      "sizes": {
+        "runtime": 308
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/define property getters",
+      "name": "webpack/runtime/define property getters",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 88,
+      "sizes": {
+        "runtime": 88
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/hasOwnProperty shorthand",
+      "name": "webpack/runtime/hasOwnProperty shorthand",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "bundle.js",
+          "size": 231068
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 231068,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "bundle.js",
+          "size": 231068
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 231068,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "c8c128b4be787c34fa9b",
+      "version": "5.23.0",
+      "time": 205,
+      "builtAt": 1613744306459,
+      "publicPath": "",
+      "outputPath": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 804,
+          "sizes": {
+            "javascript": 503,
+            "runtime": 301
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "fed32802bc9d3d5d436d",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-0",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 449,
+              "sizes": {
+                "javascript": 449
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:114-128",
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:114-128"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 54,
+              "sizes": {
+                "javascript": 54
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-0",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-0"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "request": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 54,
+          "sizes": {
+            "javascript": 54
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 449,
+          "sizes": {
+            "javascript": 449
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "nameForCondition": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleIdentifier": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:114-128",
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./node_modules/html-webpack-plugin/default_index.ejs"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\lib\\loader.js!C:\\Users\\User\\Desktop\\GeekBrains\\webpack\\node_modules\\html-webpack-plugin\\default_index.ejs",
+              "loc": "HtmlWebpackPlugin_0-0",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:114-128"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-0": {
+          "name": "HtmlWebpackPlugin_0-0",
+          "chunks": [
+            "HtmlWebpackPlugin_0-0"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
